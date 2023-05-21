@@ -1,0 +1,115 @@
+/* ------------------- */
+/*    Utility Class    */
+/* ------------------- */
+
+/* flex */
+.flex-row {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-c {
+  align-items: center;
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-jsb {
+  justify-content: space-between;
+}
+.flex-ac {
+  align-items: center;
+}
+.flex-jsa {
+  justify-content: space-between;
+}
+.flex-jfs {
+  align-items: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+/* grid */
+.grid {
+  display: grid;
+}
+.grid-c {
+  place-items: center;
+}
+/* block */
+.block {
+  display: block;
+}
+
+/* typography */
+
+.ff-alata {
+  font-family: var(--ff-alata);
+}
+.ff-josefins {
+  font-family: var(--ff-josefins);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fs-large {
+  font-size: var(--fs-large);
+}
+.fs-small {
+  font-size: var(--fs-small);
+}
+.fs-medium {
+  font-size: var(--fs-medium);
+}
+.fs-xmedium {
+  font-size: var(--fs-xmedium);
+}
+
+.fs-xsmall {
+  font-size: var(--fs-xsmall);
+}
+
+.fw-300 {
+  font-weight: var(--fw-bold);
+}
+.fw-400 {
+  font-weight: var(--fw-bolder);
+}
+
+.center {
+  margin: auto;
+}
+.t-center {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+.active {
+  display: flex;
+}
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.bradius {
+  border-radius: 1.5rem 0.2rem;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
