@@ -16,9 +16,11 @@ const navbarToggleDesk = () => navbar.classList.toggle("active"),
 hamburger.addEventListener("click", () => {
   navbarToggleDesk();
   navbarToggleMob();
+  document.body.classList.toggle("disable-scroll");
 });
 
 closeBtn.addEventListener("click", () => {
   navbarToggleDesk();
   navbarToggleMob();
+  document.body.classList.toggle("disable-scroll");
 });
